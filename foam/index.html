@@ -15,6 +15,18 @@
     <label for="male">Male</label>
     <input type="radio" name="gender" id="female" value="female">
     <label for="female">Female</label>
+
+   <p><label for="country">Select a country:</label>
+    <select name="country" id="country">
+        <option value="Belarus">Belarus</option>
+        <option value="Russia">Russia</option>
+        <option value="Poland">Poland</option>
+        <option value="Lithuania">Lithuania</option>
+        <option value="Latvia">Latvia</option>
+        <option value="Ukraine">Ukraine</option>
+        <option value="Germany">Germany</option>
+    </select></p> 
+
     <p>Marital status:</p>
     <input type="radio" name="status" id="single" value="single">
     <label for="single">Single</label>
@@ -29,6 +41,14 @@
     <input type="radio" name="status" id="other" value="other">
     <label for="other">Other(please specify)</label>
     <input type="text" name="status" required>
+    <p><label for="age">Select your age:</label>
+    <select name="age" id="age">
+        <option value="18-25">18-25</option>
+        <option value="26-35">26-35</option>
+        <option value="36-45">36-45</option>
+        <option value="46-55">46-55</option>
+        <option value="56-65">56-65</option>
+    </select></p>
     <p>Date of birth:<input type="date" name="date"></p>
     <textarea name="text" placeholder="Expectations and wishes" maxlength="250" cols="40" rows="20"></textarea>
     <input type="submit" value="SEND" >
