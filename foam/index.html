@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Send form.</h1>
+    <p>Name:  <input type="text" name="username" maxlength="20" required></p>
+    <p>Telephone number:  <input type="tel" name="phone" required></p>
+    <p>Email:  <input type="email" name="email" required></p>
+    <p>Password:  <input type="password" name="password" required></p>
+    <p>Gender:</p>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+    <p>Marital status:</p>
+    <input type="radio" name="status" id="single" value="single">
+    <label for="single">Single</label>
+    <input type="radio" name="status" id="married" value="married">
+    <label for="married">Married</label>
+    <input type="radio" name="status" id="divorced" value="divorced">
+    <label for="divorced">Divorced</label>
+    <input type="radio" name="status" id="separated" value="separated">
+    <label for="separated">Separated</label>
+    <input type="radio" name="status" id="widow" value="widow">
+    <label for="widow">Widow(-er)</label>
+    <input type="radio" name="status" id="other" value="other">
+    <label for="other">Other(please specify)</label>
+    <input type="text" name="status" required>
+    <p>Date of birth:<input type="date" name="date"></p>
+    <textarea name="text" placeholder="Expectations and wishes" maxlength="250" cols="40" rows="20"></textarea>
+    <input type="submit" value="SEND" >
+    <input type="reset" value="CANCEL" >
+</body>
+</html>
